@@ -1,0 +1,86 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.img-logo {
+  width: 100px;
+  height: 100%;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+.text-marca {
+  display: flex;
+  font-size: 30px;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+.menu {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  gap: 2rem;
+}
+.sign-out {
+  display: none;
+}
+.sign-in {
+  display: none;
+}
+
+.iniciar-sesion {
+  color: black;
+  font-size: 2rem;
+}
+.contenedor-sigin {
+  background-color: green;
+}
+.formulario-signin {
+  display: none;
+  flex-direction: column;
+  background-color: rgba(26, 26, 26, 0.315);
+  width: 500px;
+  height: 100%;
+  text-align: center;
+  border: 1px solid black;
+  padding: 50px;
+  border-radius: 10px;
+}
+.contenedor-login {
+  width: 1fr;
+
+  display: flex;
+  background-color: red;
+  justify-content: center;
+}
+.bienvenido {
+  display: none;
+}
+.formulario-login {
+  display: none;
+  align-items: center;
+  width: 500px;
+  position: absolute;
+  top: 300px;
+  flex-direction: column;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  justify-content: end;
+  border: 1px solid black;
+  padding: 50px;
+  border-radius: 10px;
+  color: white;
+}
+.activo {
+  display: flex;
+}
+.registrate {
+  color: white;
+}
